@@ -1,0 +1,30 @@
+*, html {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #fff;
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+}
+.flex_jc_c {
+  justify-content: center;
+}
+.flex_jc_sb {
+  justify-content: space-between;
+}
+.flex_ai_c {
+  align-items: center;
+}
+.flex_as_c {
+  align-self: center;
+}
